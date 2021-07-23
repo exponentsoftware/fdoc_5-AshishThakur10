@@ -10,7 +10,7 @@ console.log(API_URL)
 //   .then(data => console.log(data));
 
 function fetchText() {
-    let response =  fetch('https://restcountries.eu/rest/v2/all')
+     fetch('https://restcountries.eu/rest/v2/all')
     .then(response => response.json())
     .then(data => console.log(data));
  
