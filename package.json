@@ -1,0 +1,24 @@
+{
+  "name": "fdoc_5-ashishthakur10",
+  "version": "1.0.0",
+  "description": "1. Use the countries API to fetch data about countries. (5 pt)",
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cross-fetch": "^3.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exponentsoftware/fdoc_5-AshishThakur10.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exponentsoftware/fdoc_5-AshishThakur10/issues"
+  },
+  "homepage": "https://github.com/exponentsoftware/fdoc_5-AshishThakur10#readme"
+}
