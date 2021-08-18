@@ -1,17 +1,20 @@
 fetch = require('cross-fetch');
-readline = require('')
 
 const API_URL = 'https://restcountries.eu/rest/v2/all'
 
-console.log(API_URL)
-
-function fetchText() {   // countries API to fetch data about countries
-     fetch('https://restcountries.eu/rest/v2/all')
+async function fetchText() { 
+    const data       //  fetch data of countries
+     const response = fetch(API_URL)
     .then(response => response.json())
-    .then(data => console.log(data));
+    .then(data => console.log(data))
+
+    const{area} = await response.json();
+    console.log(area);
  
 }
 
 
-fetchText();
+fetchText(); 
+
+//How many languages are there in the countries API
 
