@@ -39,7 +39,8 @@ const getAllLaunguage = () => {
 
 
      //console.log(arr.length);
-    console.log(totalLang);
+    console.log("total  languages",totalLang);
+
 }
 
 getData();
