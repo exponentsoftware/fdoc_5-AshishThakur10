@@ -7,6 +7,7 @@ const API_URL = 'https://restcountries.eu/rest/v2/all'
    // .then(response => response.json())
     //.then(data => console.log(data))
 
+    let totalLang = 0
 
 
 var resdata;
@@ -24,6 +25,7 @@ const getAllLaunguage = () => {
   resdata.map((item, index) => {
     const lang = item.languages.map((language) => language.name);
     arr.push(lang);
+    totalLang ++
   });
 
   arr.map((item, index) => {
@@ -36,8 +38,9 @@ const getAllLaunguage = () => {
      getAllLaunguage()
 
 
-
-
+     //console.log(arr.length);
+    console.log(totalLang);
 }
 
 getData();
+
