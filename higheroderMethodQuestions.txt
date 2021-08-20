@@ -60,3 +60,30 @@ or
 
 var sum = arr.reduce((sum, elem) => sum + elem)
 console.log(sum)
+
+b.Explain the difference between function declaration and arrow function ?
+
+ans =
+Function declarations
+
+The Syntax
+function soal(){
+// your code inside this function
+}
+
+1. function declaration attach themselves to enclosing scope.
+function soal(){
+//your code
+}
+If you declare a function in the global scope using function declaration, The scope of the function is global. this is one of the key differences compared to function expressions
+2. Function declarations are affected by hoisting.
+sayHello()  // function calling
+function sayHello(){
+     console.log(“Hello”);
+}
+You can call a function before you declare it. because of hoisting.
+
+Arrow Functions
+
+The Syntax
+()=>{}
