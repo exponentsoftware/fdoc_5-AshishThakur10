@@ -92,3 +92,13 @@ Q C. Explain the difference between find and findIndex ?
 
 Ans = The method find() is very similar to findIndex() . 
 The only difference is that the find method returns the element value, but the findIndex method returns the element index.
+
+Q D. If you like to filter out one object element in an array, which method do you like to use: filter or find? 
+
+Ans- filter 
+
+The find() method is used to find all the descendant elements of the selected element. It finds the element in the DOM tree by traversing through the root to leaf.
+
+The filter() method is used to filters all the elements and returns the element that matches and the element that do not match are removed.
+
+The only difference is the filter() method search through all the elements while find() method search through all the child elements only.
