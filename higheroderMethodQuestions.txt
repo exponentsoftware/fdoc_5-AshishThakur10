@@ -102,3 +102,24 @@ The find() method is used to find all the descendant elements of the selected el
 The filter() method is used to filters all the elements and returns the element that matches and the element that do not match are removed.
 
 The only difference is the filter() method search through all the elements while find() method search through all the child elements only.
+
+Q E. Explain the difference of var, let and const when we declare a variable ?
+
+Ans =
+ var
+Variables declared with var are in the function scope.
+Hoisting is Allowed	
+Reassign the value is allowed
+Redeclaration of the variable is allowed
+
+let 
+Variables declared as let are in the block scope.
+Hoisting is not allowed	
+Reassign the value is allowed
+Redeclaration of the variable is not allowed
+
+const
+Variables declared as const are in the block scope.
+Hoisting is not allowed
+Reassign the value is not allowed
+Redeclaration of the variable is not allowed
